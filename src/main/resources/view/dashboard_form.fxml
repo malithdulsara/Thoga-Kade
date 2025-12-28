@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardController">
+   <children>
+      <Label alignment="CENTER" layoutX="42.0" layoutY="30.0" prefHeight="42.0" prefWidth="498.0" text="Dashboard">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Label>
+      <Button layoutX="199.0" layoutY="128.0" mnemonicParsing="false" onAction="#btnCustomerOnAction" prefHeight="26.0" prefWidth="184.0" style="-fx-background-color: #2595c4; -fx-background-radius: 20;" text="Customer Info" textFill="#fffdfd">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="199.0" layoutY="180.0" mnemonicParsing="false" onAction="#btnItemOnAction" prefHeight="26.0" prefWidth="184.0" style="-fx-background-color: #2595c4; -fx-background-radius: 20;" text="Item Info" textFill="#fffdfd">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="199.0" layoutY="228.0" mnemonicParsing="false" onAction="#btnSupplierOnAction" prefHeight="26.0" prefWidth="184.0" style="-fx-background-color: #2595c4; -fx-background-radius: 20;" text="Supplier Info" textFill="#fffdfd">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="199.0" layoutY="276.0" mnemonicParsing="false" onAction="#btnEmployeeOnAction" prefHeight="26.0" prefWidth="184.0" style="-fx-background-color: #2595c4; -fx-background-radius: 20;" text="Employee Info" textFill="#fffdfd">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
